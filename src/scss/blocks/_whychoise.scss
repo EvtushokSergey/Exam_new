@@ -1,0 +1,129 @@
+.whychoise {
+    &__title2 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        color: $white;
+    }
+
+    &__cenblock {
+        background-color: black;
+        opacity: 0.9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 115px 0;
+    }
+    
+    &__ptext {
+        width: 530px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__titlept {
+        font-size: 36px;
+        margin-bottom: 60px;
+    }
+
+    &__texet {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    &__texet2 {
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+
+    &__btn-holder {
+        width: 225px;
+        padding: 24px 40px;
+        text-transform: uppercase;
+        background-image: $grid;
+    }
+
+    &__bbtn {
+        color: $white;
+        background-repeat: no-repeat;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    &__fotosity {
+        padding: 0 80px 0;
+    }
+
+    &__blockchoice {
+        height: 337px;
+        padding: 100px 0;
+        background-color: #333;        
+    }
+
+    &__choice-list {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__choice-item {
+        padding: 0 58px;
+    }
+
+    &__choiceitem-btn {
+        font-size: 60px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;        
+    }
+
+    &__choice-ic {
+        margin-bottom: 30px;
+        color: #5573EB;
+        position: relative;
+
+        &::after {
+            content: '';
+            border-top: 1px dotted $white;
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+            top: -36px;
+            left: 129px;
+            width: 305px;
+            height: 66px;
+            position: absolute;
+        }
+    }
+
+    &__choice-iv {
+        margin-bottom: 30px;
+        color: #F25F5F;
+        position: relative;
+
+        &::after {
+            content: '';
+            border-top: 1px dotted $white;
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+            top: -36px;
+            left: 131px;
+            width: 305px;
+            height: 66px;
+            position: absolute;
+        }
+    }
+
+    &__choice-like2 {
+        margin-bottom: 30px;
+        color: #00A2FF;
+    }
+
+    &__choiceitem-span {
+        color: $white;
+        font-size: 36px;
+        text-transform: none;
+    }
+}

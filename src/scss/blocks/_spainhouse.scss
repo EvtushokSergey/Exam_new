@@ -1,0 +1,59 @@
+.spainhouse {
+    &__title4 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 575px;
+        z-index: 0;
+        background-position: right top -240px;
+        color: $white;
+        padding: 160px 225px 0;
+    }
+
+    &__blockopas {
+        width: 540px;
+        height: 370px;
+        background-color: black;
+        opacity: 0.9;
+        padding: 50px 30px;
+    }
+
+    &__blockspain {
+        margin-bottom: 30px;
+    }
+
+    &__bloctit {
+        font-size: 20px;
+    }
+
+    &__titlehous {
+        margin-bottom: 30px;
+    }
+
+    &__titleh {
+        font-size: 20px;
+        text-transform: uppercase;        
+    }
+
+    &__texttitle {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    &__btn-holder {
+        width: 225px;
+        padding: 24px 40px;
+        text-transform: uppercase;
+        background-image: $grid;
+    }
+
+    &__bbtn {
+        font-size: 16px;
+        color: $white;
+        background-repeat: no-repeat;
+        text-decoration: none; 
+        
+        &:hover {
+            color: red;
+        }
+    }
+}
